@@ -1,0 +1,155 @@
+@media all and (min-width: 1364px) and (max-width: 1920px) {
+    .banner-img {
+        left: 56vw;
+    }
+    .header {
+        padding-left: 10.31vw;
+        padding-right: 10.31vw;
+    }
+
+    .banner-content {
+        padding-left: 10.31vw;
+        width: 700px;
+    }
+
+   .features__list {
+       @include flex(center, center, row, wrap);
+   }
+
+   .dontLeave {
+       padding-bottom: 100px;
+       padding-right: 10.31vw;
+   }
+
+   .dontLeave-content {
+       margin-top: 100px;
+   }
+
+   .dontLeave-img {
+       left: 10.31vw;
+   }
+
+   .screenShots {
+       padding-top: 100px;
+   }
+
+   .screenShot1 {
+       left: 670px;
+       top: 2300px;
+   }
+
+   .screenshot2 {
+       left: 460px;
+       top: 2330px;
+   }
+
+   .screenshot3 {
+       left: 335px;
+       top: 2370px;
+   }
+
+   .screenshot4 {
+       left: 269px;
+       top: 2400px;
+   }
+
+   .screenshot5 {
+       left: 946px;
+       top: 2330px;
+   }
+
+   .screenshot6 {
+       left: 1070px;
+       top: 2370px;
+   }
+
+   .screenShot7 {
+       left: 1140px;
+       top: 2400px;
+   }
+
+   .video__play {
+       top: 3980px
+   }
+}
+
+@media all and (min-width: 1345px) and (max-width: 1364px) {
+    .banner-img {
+        left: 39vw;
+    }
+
+    .dontLeave-img {
+        top: 1450px;
+    }
+
+    .dontLeave-img {
+        left: 10.31vw;
+    }
+
+    .fedback__left-arrow {
+        margin-right: 5px;
+    }
+
+    .fedback__right-arrow {
+        margin-left: -25px;
+    }
+}
+
+@media all and(min-width: 1230px) and (max-width: 1345px) {//1285px
+    .features__list {
+        justify-content: center;
+    }
+
+    .dontLeave-img {
+        top: 1570px;
+    }
+
+    .screenShots {
+        padding-top: 80px;
+    }
+
+    .screenshot4 {
+        top: 2650px;
+        left: 59px;
+    }
+
+    .screenshot3 {
+        top: 2620px;
+        left: 125px;
+    }
+
+    .screenshot2 {
+        top: 2590px;
+        left: 250px;
+    }
+    .screenShot1 {
+        top: 2560px;
+        left: 460px;
+    }
+
+    .screenshot5 {
+        top: 2590px;
+        left: 736px;
+    }
+
+    .screenshot6 {
+        top: 2620px;
+        left: 860px;
+    }
+
+    .screenShot7 {
+        top: 2650px;
+        left: 930px;
+    }
+    .video__play {
+        top: 4255px;
+    }
+
+    .fedback__left-arrow {
+        margin-right: 5px;
+    }
+
+    .fedback__right-arrow {
+        margin-left: -25px;
+    }
+}

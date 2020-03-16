@@ -1,0 +1,62 @@
+.features {
+    width: 100%;
+    //height: 460px;
+    background-color: $color1;
+    padding: 125px 2.6vw 0 2.6vw;
+}
+
+.features__list {
+    @include flex(flex-start, center, wrap, row);
+    padding-bottom: 120px;
+    border-bottom: 1px solid #eee;
+}
+
+.features__item {
+    @include flex(flex-start, center, wrap, row);
+    width: 365px;
+    margin-bottom: 60px;
+    margin-right: 60px;
+}
+
+.feature-icon {
+    width: 75px;
+    height: 75px;
+    border: 1px solid #eee;
+    border-radius: 50%;
+    margin-right: 30px;
+    &--sell {
+        background: url('../../img/Icon1.png') center center no-repeat;
+    }
+    &--customize {
+        background: url('../../img/Icon2.png') center center no-repeat;
+    }
+    &--colors {
+        background: url('../../img/Icon3.png') center center no-repeat;
+    }
+    &--responsive {
+        background: url('../../img/Icon4.png') center center no-repeat;
+    }
+    &--convert {
+        background: url('../../img/Icon5.png') center center no-repeat;
+    }
+    &--boundaries {
+        background: url('../../img/Icon6.png') center center no-repeat;
+    }
+}
+
+.feature-text {
+    width: 260px;
+    text-align: left;
+}
+
+.feature-text__title {
+    font-size: 15pt;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.feature-text__down {
+    font-size: 10pt;
+    font-family: Arial, Helvetica, sans-serif;
+}

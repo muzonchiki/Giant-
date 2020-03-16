@@ -1,0 +1,98 @@
+.testimonials {
+    width: 100%;
+    padding-bottom: 120px;
+    padding-top: 120px;
+    @include flex(flex-start, center, nowrap, column);
+}
+ 
+.testimonials__title {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.testimonials__text {
+    width: 655px;
+    margin-top: 35px;
+    line-height: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 14px;
+    color: #777;
+    text-align: center;
+}
+
+.feedback__list {
+    @include flex(flex-start, center, nowrap, row);
+    margin-top: 80px;
+}
+
+.feedback-item {
+    width: 360px;
+    background: #f7fafc;
+    margin-right: 30px;
+    padding: 40px;
+    &--action {
+        box-shadow: 0px 10px 30px 0px #ededed;
+        background: $color1;
+    }
+}
+
+.feedback-item__up {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: lighter;
+    color: #777;
+    line-height: 24px;
+}
+
+.feedback-item__down {
+    margin-top: 30px;
+    @include flex(flex-start, center, wrap, row);
+}
+
+.feedback-item__img {
+    background: url('../../img/face1.png') center center no-repeat;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    &--user2 {
+        background: url('../../img/face2.png') center center no-repeat;
+    }
+    &--user3 {
+        background: url('../../img/face3.png') center center no-repeat;
+    }
+}
+
+.feedback-item__name {
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+.feedback-item__name-down {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: lighter;
+    color: #777; 
+}
+
+.fedback__left-arrow {
+    background: url('../../img/left-arrow.png') center center no-repeat;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 50px;
+}
+
+.fedback__right-arrow {
+    background: url('../../img/right-arrow.png') center center no-repeat;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 40px;
+}  

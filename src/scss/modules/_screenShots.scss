@@ -1,0 +1,95 @@
+.screenShots {
+    width: 100%;
+    height: 900px;
+    background-color: #f7fafc;
+    padding-top: 130px;
+    @include flex(flex-start, center , nowrap, column);
+}
+
+.screenShots__title {
+    font-size: 36px;
+    line-height: 30px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.screenShots__text {
+    margin-top: 30px;
+    width: 660px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: $color2;
+    text-align: center;
+}
+
+.screenShots__list {
+    margin-top: 80px;
+}
+
+.screenShot1 {
+    background: url('../../img/screenshot1.png') center center no-repeat;
+    position: absolute;
+    left: 500px;
+    top: 2400px;
+    width: 360px;
+    height: 550px;
+    z-index: 239;
+}
+
+.screenshot2 {
+    background: url('../../img/screenshot2.png') center center no-repeat;
+    position: absolute;
+    left: 290px;
+    top: 2430px;
+    width: 300px;
+    height: 500px;
+    z-index: 234;
+}
+
+.screenshot3 {
+    background: url('../../img/screenshot3.png') center center no-repeat;
+    height: 420px;
+    width: 300px;
+    position: absolute;
+    top: 2470px;
+    left: 165px;
+}
+
+.screenshot4 {
+    background: url('../../img/screenshot4.png') center center no-repeat;
+    height: 360px;
+    width: 300px;
+    position: absolute;
+    top: 2500px;
+    left: 99px;
+}
+
+.screenshot5 {
+    background: url('../../img/screenshot5.png') center center no-repeat;
+    position: absolute;
+    top: 2430px;
+    left:776px;
+    width: 300px;
+    height: 500px;
+    z-index: 234;
+}
+
+.screenshot6 {
+    background: url('../../img/screenshot6.png') center center no-repeat;
+    height: 420px;
+    width: 300px;
+    position: absolute;
+    top: 2470px;
+    left: 900px;
+    z-index: 230;
+}
+
+.screenShot7 {
+    background: url('../../img/screenshot7.png') center center no-repeat;
+    height: 360px;
+    width: 300px;
+    position: absolute;
+    top: 2500px;
+    left: 970px;
+}

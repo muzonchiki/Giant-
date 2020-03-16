@@ -1,0 +1,122 @@
+.pricing {
+    width: 100%;
+    padding-top: 120px;
+    padding-bottom: 110px;
+    padding-left: 2.6vw;
+    padding-right: 2.6vw;
+    @include flex(flex-start, center, wrap, column);
+}
+
+.pricing__title {
+    font-size: 36px;
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    width: 550px;
+    text-align: center;
+}
+
+.pricing__text {
+    margin-top: 30px;
+    width: 670px;
+    text-align: center;
+}
+
+.pricing__list {
+    @include flex(flex-start, center, nowrap, row);
+    margin-top: 80px;
+}
+
+.pricing__item {
+    margin-right: 30px;
+    background: #f7fafc;
+    padding-bottom: 20px;
+    &--bg-white {
+        background: $color1;
+        box-shadow: 0px 10px 30px 0px #ededed;
+    }
+}  
+
+.pricing__item-title {
+    text-align: center;
+    line-height: 24px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.pricing__item-price {
+    height: 80px;
+    background: $color1;
+    padding-top: 30px;
+    text-align: center;
+    line-height: 24px;
+    font-size: 40px;
+    font-weight: 600;
+    &::first-letter {
+        vertical-align: super;
+        font-size: 18px;
+    }
+    &--sub {
+        font-size: 18px;
+    }
+    &--gradient {
+        background: rgb(242,23,128);
+    }
+}
+ 
+.pricing__item-triangle {
+    width: 0;
+	height: 0;
+	border-left: 130px solid transparent;
+	border-right: 132px solid transparent;
+    border-top: 40px solid $color1;
+    &--gradient {
+        border-top: 40px solid rgb(242,23,128);
+    }
+}
+
+.pricing__content-list {
+    margin-top: 10px;
+    @include flex(flex-start, center, wrap, column);
+}
+
+
+.pricing__content-item {
+    width: 200px;
+    border-bottom: 1px dashed #eeeeee;
+    text-align: center;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    color: #a2a3a3;
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: lighter;
+}
+ 
+.pricing__content-text {
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: lighter;
+    color: #aaa;
+    text-align: center;
+}
+
+.pricing__item-button--wrapper {
+    @include flex(center, center, nowrap, row);
+}
+
+.pricing__item-button {
+    margin-top: 15px;
+    padding: 15px 40px 15px 40px;
+    border: 1px solid $color1;
+    border-radius: 50px;
+    background: $color1;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    &--gradient {
+        background: $firstGradient;
+    }
+}

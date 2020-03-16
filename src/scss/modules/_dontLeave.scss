@@ -1,0 +1,54 @@
+.dontLeave {
+    width: 100%;
+    background-color: $color1;
+    @include flex(flex-end, flex-start, wrap, row);
+    padding-right: 2.6vw;
+    padding-bottom: 170px;
+}
+
+.dontLeave-img {
+    width: 430px;
+    height: 510px;
+    background: url('../../img/iPhone.png') center center no-repeat;
+    position: absolute;
+    left: 2.6vw;
+    top: 1384px;
+}
+
+.dontLeave-content {
+    width: 545px;
+    margin-top: 175px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dontLeave-content__title {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.dontLeave-content__text {
+    color: $color2;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.dontLeave-content__list {
+    margin-top: 40px;
+}
+
+.dontLeave-content__text--up {
+    margin-bottom: 80px;
+}
+
+.dontLeave-content__item {
+    margin-bottom: 25px;
+    @include flex(flex-start, flex-start, nowrap, row);
+}
+
+.dontLeave-content__img {
+    background: url('../../img/black-point.png') center center no-repeat;
+    width: 15px;
+    height: 15px;
+    margin-right: 20px;
+}

@@ -1,0 +1,43 @@
+.footer {
+    width: 100%;
+    height: 180px; // deleted
+    background-color: #222;
+    @include flex(center, center, nowrap, column);
+}
+
+.footer-social__list {
+    @include flex(center, center, nowrap, row);
+    margin-bottom: 30px;
+}
+
+.footer-social__item {
+    width: 30px;
+    height: 30px;
+    margin-right: 25px;
+}
+
+.social-item__link {
+    display: block;
+    width: 25px;
+    height: 25px;
+    &--fb {
+        background: url('../../img/fb-icon.png') center center no-repeat;
+    }
+    &--tw {
+        background: url('../../img/tw-icon.png') center center no-repeat;
+    }
+    &--ri {
+        background: url('../../img/red-icon.png') center center no-repeat;
+    }
+    &--be {
+        background: url('../../img/be-icon.png') center center no-repeat;
+    }
+}
+
+.footer__copyright-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: lighter;
+    color: #fff;
+}

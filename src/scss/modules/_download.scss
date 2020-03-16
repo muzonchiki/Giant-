@@ -1,0 +1,70 @@
+.download {
+    width: 100%;
+    height: 460px;        // delete
+    padding-top: 120px;
+    background-image: $firstGradient;
+    @include flex(flex-start, center, nowrap, column);
+}
+
+.download__title {
+    color: $color1;
+    line-height: 24px;
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.download__list {
+    margin-top: 80px;
+    @include flex(flex-start, center, nowrap, row);
+}
+
+.download__item {
+    background: $color1;
+    margin-right: 30px;
+}
+
+.download__item-button {
+    @include flex(flex-start, flex-start, nowrap, row);
+    border-style: none;
+}
+
+.donwload-button__left {
+    width: 115px;
+    height: 115px;
+    background: #f7fafc;
+    @include flex(center, center)
+}
+
+.donwload-button__logo {
+    background: url('../../img/Icon-apple.png') center center no-repeat;
+    width: 60px;
+    height: 60px;
+    &--android {
+        background: url('../../img/Icon-android.png') center center no-repeat;
+    }
+    &--windows {
+        background: url('../../img/Icon-windows.png') center center no-repeat;
+    }
+}
+
+.dowload-button__right {
+    width: 245px;
+    @include flex(flex-start, flex-start, nowrap, column);
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+.dowload-button__right-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    line-height: 24px;
+    font-weight: 600;
+    margin-bottom: 17px;
+}
+
+.dowload-button__right-text {
+    font-size: 14px;
+    font-weight: lighter;
+    line-height: 24px;
+    color: #777;
+}
